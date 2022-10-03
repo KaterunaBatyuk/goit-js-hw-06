@@ -16,4 +16,5 @@ function onFormSubmit(event) {
     password,
   };
   console.log(obj);
+  event.currentTarget.reset();
 }
